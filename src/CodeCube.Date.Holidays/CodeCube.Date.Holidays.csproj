@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CodeCube.Date.Holidays.CC\CodeCube.Date.Holidays.CC.csproj" />
+    <ProjectReference Include="..\CodeCube.Date.Holidays.DTO\CodeCube.Date.Holidays.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
